@@ -1,0 +1,66 @@
+.logo {
+    display: flex;
+    gap: 4px;
+    font-size: 1.4rem;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .7rem;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+.texto__principal {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.info__perfil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+
+}
+
+.info__descripcion{
+   width: 50rem;
+}
+
+.texto__parrafo{
+    font-size: 1.3rem;
+    max-width: 40rem;
+}
+
+.info__redes{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.redes{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.img__main{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20rem;
+}
