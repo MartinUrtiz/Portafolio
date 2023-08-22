@@ -12,7 +12,10 @@ body {
 }
 
 .info__sobremi{
-    padding: 2rem 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
 }
 
 .titulos{
@@ -23,7 +26,7 @@ body {
 }
 
 .texto__sobremi{
-    max-width: 65%;
+    max-width: 50%;
     font-size: 1.3rem;
     padding-bottom: 1rem;
     color: #1f1919;
