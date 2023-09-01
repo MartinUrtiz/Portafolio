@@ -18,6 +18,7 @@
 }
 
 .contacto input {
+  font-family: "Frank Ruhl Libre", serif;
   width: 25%;
   height: 2rem;
   border-radius: 1rem;
@@ -28,6 +29,7 @@
 }
 
 .contacto textarea {
+  font-family: "Frank Ruhl Libre", serif;
   width: 25%;
   height: 10rem;
   resize: none;
