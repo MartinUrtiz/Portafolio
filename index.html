@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Martin Urtizberea</title>
+    <link rel="icon" href="img/Icono pag.svg" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/estilos.css" />
@@ -12,6 +13,8 @@
     <link rel="stylesheet" href="css/skills.css" />
     <link rel="stylesheet" href="css/formaciones.css" />
     <link rel="stylesheet" href="css/experiencia.css" />
+    <link rel="stylesheet" href="css/formulario.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,8 +27,7 @@
     <header class="header">
       <nav class="navegacion">
         <div class="logo">
-          <i class="fa-solid fa-gamepad"></i>
-          <p class="texto__logo">MartinUrtiz</p>
+          <img src="img/Favicon.svg" alt="" />
         </div>
 
         <ul class="enlaces">
@@ -90,7 +92,7 @@
     </section>
 
     <section class="section__skills">
-      <h3 class="titulos centrar__titulos">Skills</h3>
+      <h2 class="titulos centrar__titulos">Skills</h2>
       <div class="skills">
         <div>
           <i class="fa-brands fa-html5"></i>
@@ -139,7 +141,7 @@
     </section>
 
     <section class="section__formacion">
-      <h4 class="titulos centrar__titulos">Formación académica</h4>
+      <h2 class="titulos centrar__titulos">Formación académica</h2>
       <div class="formaciones">
         <div class="container__formaciones">
           <div class="fondo__formaciones">
@@ -149,7 +151,7 @@
               alt="Logo CS50"
             />
           </div>
-          <h5 class="titulo__formaciones">CS50</h5>
+          <h4 class="titulo__formaciones">CS50</h4>
           <p class="texto__formaciones">Jul 2023 - Actualidad</p>
         </div>
 
@@ -161,18 +163,24 @@
               alt="logo Oracle Next Education"
             />
           </div>
-          <h5 class="titulo__formaciones">Formación ONE</h5>
+          <h4 class="titulo__formaciones">Formación ONE</h4>
           <p class="texto__formaciones">Abr 2023 - Actualidad</p>
         </div>
       </div>
     </section>
 
     <section class="exp__profesional">
-      <h6 class="titulos centrar__titulos">Experiencia profesional</h6>
+      <h2 class="titulos centrar__titulos">Experiencia profesional</h2>
       <div class="info__exp">
         <div class="parrafo__exp">
-          <p class="titulo__formaciones">Encriptador de texto - Challenge Alura Codificador</p>
-          <p class="texto__exp"><i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i></p>
+          <p class="titulo__formaciones">
+            Encriptador de texto - Challenge Alura Codificador
+          </p>
+          <p class="texto__exp">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+          </p>
         </div>
         <img
           class="img__exp"
@@ -195,16 +203,38 @@
     </section>
 
     <section class="contacto">
-      <form action="">
+      <h2 class="titulos centrar__titulos">Contacto</h2>
+      <form
+        action="https://formsubmit.co/urtizbereamartin19@gmail.com"
+        method="POST"
+      >
         <label for="name">Nombre</label>
-        <input type="name">
-        <label for="email">Email</label>
-        <input type="name">
+        <input type="name" name="name" placeholder="Ingresa tu nombre" required />
+        <label for="email" name="email">Email</label>
+        <input type="email" placeholder="Ingresa tu email" required />
         <label for="textarea">Mensaje</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea
+          name="message"
+          id=""
+          placeholder="Ingresa un mensaje"
+          required
+        ></textarea>
+        <button>Enviar</button>
       </form>
     </section>
 
+    <footer class="footer">
+      <img src="img/Favicon.svg" alt="" />
+      <p>Desarrollado por Martin Urtizberea</p>
+      <div class="redes__footer">
+        <a href="https://github.com/MartinUrtiz" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/martin-urtizberea/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
     <script
       src="https://kit.fontawesome.com/b6f07535ef.js"
       crossorigin="anonymous"

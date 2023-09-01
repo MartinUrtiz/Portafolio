@@ -1,7 +1,5 @@
-.logo {
-  display: flex;
-  gap: 4px;
-  font-size: 1.4rem;
+.logo img {
+  width: 10rem;
 }
 
 .navegacion {
@@ -17,7 +15,7 @@
 }
 
 a {
-  color: #EEEEEE;
+  color: #eeeeee;
   text-decoration: none;
 }
 
