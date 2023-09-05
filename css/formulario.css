@@ -58,3 +58,17 @@
   background-color: #59d8de;
   width: 11rem;
 }
+
+@media (width <= 768px) {
+  .contacto {
+    padding-bottom: 4rem;
+  }
+  .contacto input {
+    width: 50%;
+    height: 3rem;
+  }
+
+  .contacto textarea {
+    width: 50%;
+  }
+}

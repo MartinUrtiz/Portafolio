@@ -1,21 +1,31 @@
 .section__sobremi {
-    background: #222831;
-    width: 100%;
-    height: 28rem;
-    margin-top: 5rem;
-  }
-  
+  background: #222831;
+  width: 100%;
+  height: 28rem;
+  margin-top: 5rem;
+}
+
+.info__sobremi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.texto__sobremi {
+  max-width: 50%;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  color: #eeeeee;
+}
+
+@media (width <= 768px) {
   .info__sobremi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   .texto__sobremi {
-    max-width: 50%;
-    font-size: 1.3rem;
-    padding-bottom: 1rem;
-    color: #EEEEEE;
+    max-width: 100%;
+    margin-left: 0.5rem;
   }
-  
+}

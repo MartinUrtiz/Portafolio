@@ -60,3 +60,28 @@ li {
   height: 20rem;
   border-radius: 20rem;
 }
+
+@media (width <= 768px) {
+  .navegacion {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto__principal {
+    font-size: 2.5rem;
+  }
+
+  .img__main {
+    display: none;
+  }
+
+  .info__descripcion {
+    width: 23rem;
+    margin-left: 0.8rem;
+  }
+
+  .redes {
+    margin-left: 1rem;
+  }
+}

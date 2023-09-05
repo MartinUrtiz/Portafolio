@@ -1,31 +1,50 @@
-.footer{
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+}
+
+.footer img {
+  width: 8rem;
+}
+
+.footer p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.redes__footer {
+  font-size: 2.2rem;
+}
+
+.redes__footer i {
+  padding-left: 1rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.redes__footer i:hover {
+  font-size: 2.4rem;
+  color: #00adb5;
+}
+
+@media (width <= 768px) {
+  .footer img {
+    width: 6rem;
+  }
+
+  .footer p {
+    font-size: 1.3rem;
+  }
+
+  .redes__footer {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 8rem;
-}
+    margin-right: 1.2rem;
+  }
 
-.footer img{
-    width: 8rem;
-}
-
-.footer p{
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-
-.redes__footer{
-    font-size: 2.2rem;
-}
-
-.redes__footer i{
-    padding-left: 1rem;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.redes__footer i:hover{
-    font-size: 2.4rem;
-    color: #00ADB5;
+  .redes__footer i {
+    padding-left: 0.6rem;
+  }
 }
